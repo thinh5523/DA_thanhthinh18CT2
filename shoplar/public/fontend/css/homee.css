@@ -1,0 +1,290 @@
+html, body{
+    		border: 0;
+    		width:100%;
+    		height: 100%;
+    		float: 0;
+		}
+		*{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: Comic Sans MS;
+		}
+		a{
+			text-decoration: none;
+			color: white;
+		}
+		header{
+			position: fixed;
+			display: flex;
+			padding: 0px 200px;
+			justify-content: space-between;
+			background: #23252b;
+			height: 80px;
+			top:0;
+			z-index: 1;
+			width: 100%
+		}
+		.logo{
+			font-size: 40px;
+			margin-top: 10px;	
+
+		}
+		
+		header ul.menu{
+			width: 60%;
+			display: flex;
+			list-style: none;
+			margin-top: 13px;
+		}
+		header ul.menu>li.menu-1{
+			padding: 15px 20px;
+		}
+		header ul.menu>li.menu-1>ul{
+			margin-top: px;
+
+		}
+		header ul.menu>li.menu-1:last-child{
+			border: none;
+		}
+		header ul.menu>li.menu-1>ul{
+			position: absolute;
+			background: #23252b;
+			list-style: none;
+			top:42px;
+			width: 180px;
+			text-align: center;
+			display: none;
+		}
+		header ul.menu>li.menu-1:hover>ul{
+			display: block;
+			
+		}
+		header ul.menu>li.menu-1>ul>li{
+			padding: 10px;
+			border-bottom: 0.2px solid #fff;
+			
+		}
+		header ul.menu>li.menu-1>ul>li:hover>a{
+			color: white;
+
+			
+		}
+		header ul.menu>li.menu-1>ul>li:hover{
+			background-color: #FF99CC;	
+		}
+		header li.menu-1>a:hover{
+			color: #FF99CC;
+		}
+		.wrap{
+			width: 100%;
+			height: auto;
+			float: left;
+		}
+		.slide{
+			width: 1000px;
+			margin: 0 auto;
+			overflow: hidden;
+			margin-top: 150px;
+			border-radius: 10px;
+			position: relative;
+
+		}
+		.slide:hover .dieuhuong{
+			display: block;
+
+		}
+		.dieuhuong{
+			position: absolute;
+			color: white;
+			font-size: 40px;
+			top: 40%;
+			padding-left: 20px;
+			display: none;
+
+		}
+		.chuyen-slide{
+			width: 9999px;
+			transition: all 1s;
+		}
+		.img{
+			width: 100px;
+			height: 400px;
+			float: left;
+
+		}
+		.dieuhuong i:last-child{
+			position: relative;
+			left: 880px;
+		}
+		.main{
+			margin-top: -30px;
+			width: 100%;
+		}
+		.nav>h2{
+			height: 50px;
+			text-align: center;
+			margin-top: 50px;
+			width: 100%;
+		}
+		.content{
+			background: white;
+			height: 2400px;
+			border-top: 2px solid #FF99CC;
+		}
+		.content1{
+			text-align: center;
+			font-size: 18pt;
+			margin-top: 40px;
+			color: #FF99CC;
+			font-style: bold;
+			background-color:white;
+		}
+		.content2{
+			text-align: center;
+			font-size: 18pt;
+			font-style: bold;
+			color: #FF99CC;
+			background-color: white;
+			margin-top: 30px;
+		}
+		ul{
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		#wrapper{
+			display: flex;
+			justify-content: ;	
+			background-color: white;	
+			margin-top: 20px;	
+		}
+		ul.list-person{
+			display: flex;
+			margin-left: 200px;
+		}
+		ul.list-person li{
+			max-width: 250px;
+			overflow: hidden;
+		}
+		ul.list-person li a img{
+			display: block;
+			max-width: 100%;
+			transition: all 0.3s ease-in-out;
+		}
+		ul.list-person li a{
+			position: relative;
+			display: block;
+		}
+		ul.list-person li:hover img{
+			transform:  scale(1.1);
+			opacity: 0.5;
+		}
+		ul.list-person li a .name{
+			position: absolute;
+			color: #FF99CC;
+			font-weight:bold;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			font-size: 15px;
+			bottom: 0px;
+			left: 40%;
+			transform: translateX(-30%);
+			transition: all 0.3s ease-in-out;
+			opacity: 0;
+		}
+		ul.list-person li a:hover .name{
+			bottom: 50%;
+			opacity: 1;
+		}
+		ul.list-person li a img{
+			height: 250px;
+		}
+		.chitietsp{
+			margin-left: -250px;
+			margin-top: 280px;
+			font-weight:bold;
+			letter-spacing: px;
+			text-transform: uppercase;
+		}
+		.tencun:hover{
+			color: #FF99CC;
+		}
+		.list-person{
+			margin-left: 13%;
+		}
+		.tencun{
+			color: black;
+		}
+		.footer{
+			background: #FF99CC;
+			height: auto;
+			width: 100%;
+			height: 350PX;
+		}
+		.petshop{
+			background: #FF99CC;
+			width: 200px;
+			height: 300px;
+			margin-left: 150px;
+			float: left;
+			margin-top: 30px;
+			color: white;
+		}
+		.ndpetshop{
+			margin-top: 10px;
+
+		}
+		.LL{
+			float: left;
+			margin-left: 210px;
+			margin-top: 20px;
+			font-size: 20pt;
+			color: white;
+		}		
+		.tencun{
+			text-decoration: none;
+		}
+		.phuongthuc{
+			width: 100%;
+			height: 250px;
+			background: #E6E6FA;
+			border-top: 0.8px solid #FFB6C1;
+		}
+		.uudiem{
+			width: 300px;
+			height: 190px;
+			background: #E6E6FA;
+			float: left;
+			margin-left: 120px;
+			margin-right: 80px;
+			text-align: center;
+		}
+		.name-uudiem1{
+			margin-top: 20px;
+		}
+		.name-uudiem2{
+			margin-top: 10px;
+		}
+		.btn-submit {
+		  padding: 15px 25px;
+		  border-radius: 10px;
+		  outline: 0;
+		  border: 0;
+		  background: #FF99CC;
+		  font-weight: 700;
+		  color: #fff;
+		  margin-top: 30px;
+		  margin-left: 1200px;
+		  text-align: center;
+		  
+		}
+		.btn-submit:hover {
+
+		  background: #FF99CC; /* fallback for old browsers */
+		  background: -webkit-linear-gradient(to right, #FF99CC, #FF9966); /* Chrome 10-25, Safari 5.1-6 */
+		  background: linear-gradient(to right, #CC6699, #CC6699); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
+
+		
